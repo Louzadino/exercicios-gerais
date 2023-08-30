@@ -1,0 +1,11 @@
+./teste < input/test_1 > output_Prog/test_1
+./teste < input/test_2 > output_Prog/test_2
+./teste < input/test_3 > output_Prog/test_3
+./teste < input/test_4 > output_Prog/test_4
+./teste < input/test_5 > output_Prog/test_5
+./teste < input/test_6 > output_Prog/test_6
+./teste < input/test_7 > output_Prog/test_7
+./teste < input/test_8 > output_Prog/test_8
+./teste < input/test_9 > output_Prog/test_9
+./teste < input/test_10 > output_Prog/test_10
+diff output output_Prog
