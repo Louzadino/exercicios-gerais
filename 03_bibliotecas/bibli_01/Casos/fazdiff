@@ -1,0 +1,9 @@
+../Includes/principal < 1/test_1.txt > saidas_Prog/saida_1
+../Includes/principal < 2/test_2.txt > saidas_Prog/saida_2
+../Includes/principal < 3/test_3.txt > saidas_Prog/saida_3
+../Includes/principal < 4/test_4.txt > saidas_Prog/saida_4
+
+diff 1/saida/out_test_1.txt saidas_Prog/saida_1
+diff 2/saida/out_test_2.txt saidas_Prog/saida_2
+diff 3/saida/out_test_3.txt saidas_Prog/saida_3
+diff 4/saida/out_test_4.txt saidas_Prog/saida_4
