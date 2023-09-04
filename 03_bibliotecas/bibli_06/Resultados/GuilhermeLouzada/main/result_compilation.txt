@@ -1,0 +1,4 @@
+Resultados/GuilhermeLouzada/main/temperature_conversor.c: In function ‘convert_temperature’:
+Resultados/GuilhermeLouzada/main/temperature_conversor.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+   31 | }
+      | ^
