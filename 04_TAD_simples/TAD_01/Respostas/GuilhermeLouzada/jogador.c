@@ -1,5 +1,6 @@
 #include "jogador.h"
 #include "jogada.h"
+#include "tabuleiro.h"
 #include <stdio.h>
 
 tJogador CriaJogador(int idJogador){
@@ -29,5 +30,43 @@ tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro){
 }
 
 int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro){
-    
+    int i, j;
+    int linhaVencedora, colunaVencedora;
+    char pecaJogador;
+
+    if (jogador.id == ID_JOGADOR_1){
+        pecaJogador = tabuleiro.peca1;
+    } else if (jogador.id == ID_JOGADOR_2){
+        pecaJogador = tabuleiro.peca2;
+    }
+
+    for (i = 0; i < TAM_TABULEIRO; i++){
+        linhaVencedora = 1;
+        for (j = 0; j < TAM_TABULEIRO; j++){
+            if (tabuleiro.posicoes[i][j] != pecaJogador){
+                linhaVencedora = 0;
+                break;
+            }
+        }
+
+        if (linhaVencedora){
+            return 1;
+        }
+    }
+
+    for (j = 0; j < TAM_TABULEIRO; j++){
+        colunaVencedora = 1;
+        for (i = 0; i < TAM_TABULEIRO; i++){
+            if (tabuleiro.posicoes[i][j] != pecaJogador){
+                colunaVencedora = 0;
+                break;
+            }
+        }
+
+        if (colunaVencedora){
+            return 1;
+        }
+    }
+
+    return 0;
 }
