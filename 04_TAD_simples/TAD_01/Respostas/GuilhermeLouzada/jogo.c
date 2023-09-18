@@ -1,4 +1,5 @@
 #include "jogo.h"
+#include <stdio.h>
 
 tJogo CriaJogo(){
     tJogo jogo;

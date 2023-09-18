@@ -22,10 +22,15 @@ tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro){
             printf("Posicao invalida (OCUPADA - [%d,%d] )!\n", jogada.x, jogada.y);
         } else if (!EhPosicaoValidaTabuleiro(jogada.x, jogada.y)){
             printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n", jogada.x, jogada.y);
+        } else {
+            jogada.sucesso = 1;
         }
     }
 
-    tabuleiro = MarcaPosicaoTabuleiro(tabuleiro, jogador.id, jogada.x, jogada.y);
+    if (FoiJogadaBemSucedida(jogada)){
+        tabuleiro = MarcaPosicaoTabuleiro(tabuleiro, jogador.id, jogada.x, jogada.y);
+    }
+    
     return tabuleiro;
 }
 
