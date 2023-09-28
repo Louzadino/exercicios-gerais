@@ -4,9 +4,11 @@
 int main(){
     tCandidato candidato;
     tEleicao eleicao;
+    tEleitor eleitor;
 
     int i = 0;
     int qtd_Candidatos;
+    int qtd_Eleitores;
 
     scanf("%d", &qtd_Candidatos);
 
@@ -22,6 +24,15 @@ int main(){
         }
 
         i++;
+    }
+
+    i = 0;
+
+    scanf("%d", &qtd_Eleitores);    
+    while(i < qtd_Eleitores){
+        eleitor = LeEleitor();
+
+        
     }
 
     return 0;
