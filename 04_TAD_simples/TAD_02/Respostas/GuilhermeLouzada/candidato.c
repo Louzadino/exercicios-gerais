@@ -48,6 +48,12 @@ int ObtemVotos(tCandidato candidato){
 }
 
 float CalculaPercentualVotos(tCandidato candidato, int totalVotos){
-    candidato.votos / totalVotos;
-    
+    int percentual = (candidato.votos / totalVotos) * 100;
+
+    return percentual;
+}
+
+void ImprimeCandidato (tCandidato candidato, float percentualVotos){
+    printf("%s, (%s), %d voto(s), %.2f", candidato.nome, candidato.partido, 
+                                            candidato.votos, percentualVotos);
 }
