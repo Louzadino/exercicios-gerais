@@ -9,6 +9,7 @@ tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id){
     strcpy(candidato.partido, partido);
     candidato.cargo = cargo;
     candidato.id = id;
+    candidato.votos = 0;
 
     return candidato;
 }
