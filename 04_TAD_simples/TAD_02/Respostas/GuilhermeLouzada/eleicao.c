@@ -63,7 +63,7 @@ tEleicao RealizaEleicao(tEleicao eleicao){
         //Analisa voto para presidente do eleitor atual
             for (j = 0; j < eleicao.totalPresidentes; j++){
                 if (VerificaIdCandidato(eleicao.presidentes[j], votoP)){
-                    eleicao.presidentes[i].votos++;
+                    eleicao.presidentes[j] = IncrementaVotoCandidato(eleicao.presidentes[j]);
                     presidenteInexistente = 0;
                     break;
                 }
@@ -79,8 +79,8 @@ tEleicao RealizaEleicao(tEleicao eleicao){
         } else {
             //Analisa voto para governador do eleitor atual
             for (j = 0; j < eleicao.totalGovernadores; j++){
-                if (VerificaIdCandidato(eleicao.governadores[j], votoP)){
-                    eleicao.governadores[i].votos++;
+                if (VerificaIdCandidato(eleicao.governadores[j], votoG)){
+                    eleicao.governadores[j] = IncrementaVotoCandidato(eleicao.governadores[j]);
                     governadorInexistente = 0;
                 }
             }
@@ -98,6 +98,7 @@ void ImprimeResultadoEleicao(tEleicao eleicao){
     int i;
     int qtdVotosAtualP = 0, qtdVotosAtualG = 0;
     int candidatoVencedorP = 0, candidatoVencedorG = 0;
+    int totalVotosP = 0, totalVotosG = 0;
 
     //Encontrando presidente e governador vencedores
     for (i = 0; i < eleicao.totalPresidentes; i++){
@@ -116,6 +117,19 @@ void ImprimeResultadoEleicao(tEleicao eleicao){
         }
     }
 
-    printf("- PRESIDENTE ELEITO: %s, (%d)\n", eleicao.presidentes[candidatoVencedorP].nome, eleicao.presidentes[candidatoVencedorP].votos);
-    printf("- GOVERNADOR ELEITO: %s, (%d)\n", eleicao.governadores[candidatoVencedorG].nome, eleicao.governadores[candidatoVencedorG].votos);
+    for (i = 0; i < eleicao.totalEleitores; i++){
+
+        if (eleicao.eleitores[i].votoP != 0){
+            totalVotosP++;
+        } 
+        
+        if (eleicao.eleitores[i].votoG != 0){
+            totalVotosG++;
+        }
+    }
+
+    printf("- PRESIDENTE ELEITO: ");
+    ImprimeCandidato(eleicao.presidentes[candidatoVencedorP], CalculaPercentualVotos(eleicao.presidentes[candidatoVencedorP], totalVotosP));
+    printf("- GOVERNADOR ELEITO: ");
+    ImprimeCandidato(eleicao.governadores[candidatoVencedorG], CalculaPercentualVotos(eleicao.governadores[candidatoVencedorG], totalVotosG));
 }
