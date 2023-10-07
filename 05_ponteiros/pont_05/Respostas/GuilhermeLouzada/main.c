@@ -2,7 +2,6 @@
 #include "esfera_utils.h"
 
 int main(){
-
     float R, volume, area;
 
     scanf("%f", &R);
