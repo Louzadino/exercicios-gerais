@@ -1,0 +1,325 @@
+Rodando o script do Aluno - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+#######################################
+ALUNO: GuilhermeLouzada
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA GuilhermeLouzada:
+ - Diretório Resultados/GuilhermeLouzada criado com sucesso!
+ - Diretório Resultados/GuilhermeLouzada/evento criado com sucesso!
+ - Diretório Resultados/GuilhermeLouzada/main criado com sucesso!
+ - Diretório Resultados/GuilhermeLouzada/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/GuilhermeLouzada/evento.c' encontrado!
+ - Arquivo esperado 'Respostas/GuilhermeLouzada/evento.h' encontrado!
+ - Arquivo esperado 'Respostas/GuilhermeLouzada/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta evento:
+ - Copiando os Casos de teste para a pasta Resultados/GuilhermeLouzada/evento
+ - Copiando os 'Respostas/GuilhermeLouzada/*.h' do aluno para a pasta Resultados/GuilhermeLouzada/evento
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/GuilhermeLouzada/evento
+ - Copiando os 'Respostas/GuilhermeLouzada/*.c' do aluno para a pasta Resultados/GuilhermeLouzada/evento
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/GuilhermeLouzada/main
+ - Copiando os 'Respostas/GuilhermeLouzada/*.h' do aluno para a pasta Resultados/GuilhermeLouzada/main
+ - Copiando os 'Includes/*.h' do professor para a pasta Resultados/GuilhermeLouzada/main
+ - Copiando os 'Respostas/GuilhermeLouzada/*.c' do aluno para a pasta Resultados/GuilhermeLouzada/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/GuilhermeLouzada/completo
+ - Copiando os 'Respostas/GuilhermeLouzada/*.h' do aluno para a pasta Resultados/GuilhermeLouzada/completo
+ - Copiando os 'Respostas/GuilhermeLouzada/*.c' do aluno para a pasta Resultados/GuilhermeLouzada/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta evento:
+ - Compilando o arquivo evento.c do aluno, gerando o evento.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo evento.c do aluno, gerando o evento.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo evento.c do aluno, gerando o evento.o
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/result_compilation.txt.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do GuilhermeLouzada:
+ - Copiando o Gabarito-obj/evento.o para a pasta Resultados/GuilhermeLouzada/main
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/GuilhermeLouzada/evento
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta evento:
+ - Gerando o binário prog linkando com o(s) arquivo(s) evento/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta evento / Caso 1:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta evento / Caso 2:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta evento / Caso 3:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta evento / Caso 4:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta evento / Caso 5:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta evento / Caso 6:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta evento / Caso 7:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/evento/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta main / Caso 7:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 0.
+ - Resultado para o saida.txt: Ok!
+ - Pasta completo / Caso 7:
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0.
+ - Resultado para o saida.txt: Ok!
+
+#######################################
+ALUNO: GuilhermeLouzada/.vscode
+#######################################
+CRIANDO O DIRETÓRIO DE RESULTADO PARA GuilhermeLouzada/.vscode:
+ - Diretório Resultados/GuilhermeLouzada/.vscode criado com sucesso!
+ - Diretório Resultados/GuilhermeLouzada/.vscode/evento criado com sucesso!
+ - Diretório Resultados/GuilhermeLouzada/.vscode/main criado com sucesso!
+ - Diretório Resultados/GuilhermeLouzada/.vscode/completo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/GuilhermeLouzada/.vscode/evento.c' não encontrado!
+ - Arquivo esperado 'Respostas/GuilhermeLouzada/.vscode/evento.h' não encontrado!
+ - Arquivo esperado 'Respostas/GuilhermeLouzada/.vscode/main.c' não encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta evento:
+ - Copiando os Casos de teste para a pasta Resultados/GuilhermeLouzada/.vscode/evento
+ - Copiando os 'Respostas/GuilhermeLouzada/.vscode/*.c' do aluno para a pasta Resultados/GuilhermeLouzada/.vscode/evento
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/GuilhermeLouzada/.vscode/main
+ - Copiando os 'Respostas/GuilhermeLouzada/.vscode/*.c' do aluno para a pasta Resultados/GuilhermeLouzada/.vscode/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/GuilhermeLouzada/.vscode/completo
+ - Copiando os 'Respostas/GuilhermeLouzada/.vscode/*.c' do aluno para a pasta Resultados/GuilhermeLouzada/.vscode/completo
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Pasta evento:
+ - Compilando o arquivo evento.c do aluno, gerando o evento.o
+ - Erro de compilação! Verifique se o arquivo Resultados/GuilhermeLouzada/.vscode/evento/evento.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/GuilhermeLouzada/.vscode/evento/main.c está correto.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/.vscode/evento/result_compilation.txt.
+ - Pasta main:
+ - Compilando o arquivo evento.c do aluno, gerando o evento.o
+ - Erro de compilação! Verifique se o arquivo Resultados/GuilhermeLouzada/.vscode/main/evento.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/GuilhermeLouzada/.vscode/main/main.c está correto.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/.vscode/main/result_compilation.txt.
+ - Pasta completo:
+ - Compilando o arquivo evento.c do aluno, gerando o evento.o
+ - Erro de compilação! Verifique se o arquivo Resultados/GuilhermeLouzada/.vscode/completo/evento.c está correto.
+ - Compilando o arquivo main.c do aluno, gerando o main.o
+ - Erro de compilação! Verifique se o arquivo Resultados/GuilhermeLouzada/.vscode/completo/main.c está correto.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/.vscode/completo/result_compilation.txt.
+ - Arquivos Compilados: Erro!: 6 arquivos com erros de compilacao.
+ - Copiando os arquivos objetos do professor para cada subpasta do Resultado do GuilhermeLouzada/.vscode:
+ - Copiando o Gabarito-obj/evento.o para a pasta Resultados/GuilhermeLouzada/.vscode/main
+ - Copiando o Gabarito-obj/main.o para a pasta Resultados/GuilhermeLouzada/.vscode/evento
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta evento:
+ - Gerando o binário prog linkando com o(s) arquivo(s) evento/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/.vscode/evento/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/.vscode/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/.vscode/completo/result_linking.txt
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta evento / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta evento / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta evento / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta evento / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta evento / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta evento / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta evento / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta main / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+ - Pasta completo / Caso 7:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
+ - Resultado para o saida.txt: Incorreto!
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Nome 0: GuilhermeLouzada/.vscode
+ - Arquivos Corretos: 0 de 3 / Nota 0.00
+ - Compilações Corretas: 0 de 6 / Nota 0.00
+ - Linkagens Corretas: 0 de 3 / Nota 0.00
+ - Resultados Corretos evento: 0 de 7 / Nota 0.00
+ - Valgrinds Corretos evento: 0 de 7 / Nota 0.00
+ - Resultados Corretos main: 0 de 7 / Nota 0.00
+ - Valgrinds Corretos main: 0 de 7 / Nota 0.00
+ - Resultados Corretos completo: 0 de 7 / Nota 0.00
+ - Valgrinds Corretos completo: 0 de 7 / Nota 0.00
+ - Soma das notas do GuilhermeLouzada/.vscode: 0
+ - Campos Considerados: 9
+ - Média do GuilhermeLouzada/.vscode: 0.00
+
+----------------------------------------------------------------------------
+Nome 1: GuilhermeLouzada
+ - Arquivos Corretos: 3 de 3 / Nota 10.00
+ - Compilações Corretas: 6 de 6 / Nota 10.00
+ - Linkagens Corretas: 3 de 3 / Nota 10.00
+ - Resultados Corretos evento: 7 de 7 / Nota 10.00
+ - Valgrinds Corretos evento: 6 de 7 / Nota 8.57
+ - Resultados Corretos main: 7 de 7 / Nota 10.00
+ - Valgrinds Corretos main: 7 de 7 / Nota 10.00
+ - Resultados Corretos completo: 7 de 7 / Nota 10.00
+ - Valgrinds Corretos completo: 6 de 7 / Nota 8.57
+ - Soma das notas do GuilhermeLouzada: 87.140
+ - Campos Considerados: 9
+ - Média do GuilhermeLouzada: 9.68
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
