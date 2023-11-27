@@ -1,0 +1,16 @@
+Resultados/GuilhermeLouzada/aluno/aluno.c: In function ‘GetGeneroAluno’:
+Resultados/GuilhermeLouzada/aluno/aluno.c:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+   40 | }
+      | ^
+Resultados/GuilhermeLouzada/aluno/aluno.c: In function ‘GetNotaAluno’:
+Resultados/GuilhermeLouzada/aluno/aluno.c:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+   47 | }
+      | ^
+Resultados/GuilhermeLouzada/aluno/vector.c: In function ‘VectorGet’:
+Resultados/GuilhermeLouzada/aluno/vector.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+   30 | }
+      | ^
+Resultados/GuilhermeLouzada/aluno/vector.c: In function ‘VectorSize’:
+Resultados/GuilhermeLouzada/aluno/vector.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+   37 | }
+      | ^
