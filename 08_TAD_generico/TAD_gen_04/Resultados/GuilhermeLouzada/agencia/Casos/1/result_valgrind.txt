@@ -1,2 +1,2 @@
 Test Case: Resultados/GuilhermeLouzada/agencia/Casos/1
-Valgrind result: allocs: 7 frees: 0 errors: 1 contexts: 1
+Valgrind result: allocs: 20 frees: 20 errors: 0 contexts: 0

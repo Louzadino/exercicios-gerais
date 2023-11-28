@@ -1,2 +1,2 @@
-Test Case: Resultados/GuilhermeLouzada/main/Casos/1
+Test Case: Resultados/GuilhermeLouzada/conta/Casos/1
 Valgrind result: allocs: 20 frees: 20 errors: 0 contexts: 0

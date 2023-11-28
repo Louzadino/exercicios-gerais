@@ -1,8 +1,0 @@
-/usr/bin/ld: Resultados/GuilhermeLouzada/conta/agencia.o: in function `DestroiAgencia':
-agencia.c:(.text+0x75): undefined reference to `DestroiConta'
-/usr/bin/ld: Resultados/GuilhermeLouzada/conta/agencia.o: in function `GetSaldoMedioAgencia':
-agencia.c:(.text+0x15a): undefined reference to `GetSaldoConta'
-/usr/bin/ld: Resultados/GuilhermeLouzada/conta/main.o: in function `main':
-main.c:(.text+0x95): undefined reference to `CriaConta'
-/usr/bin/ld: main.c:(.text+0xa5): undefined reference to `LeConta'
-collect2: error: ld returned 1 exit status

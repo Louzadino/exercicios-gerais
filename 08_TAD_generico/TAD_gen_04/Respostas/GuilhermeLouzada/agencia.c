@@ -27,7 +27,7 @@ void DestroiAgencia(DataType agencia){
 
 void LeAgencia(tAgencia *agencia){
 
-    scanf("%d;%[^\n]\n", agencia->num, agencia->nome);
+    scanf("%d;%[^\n]\n", &agencia->num, agencia->nome);
 }
 
 void AdicionaConta(tAgencia *agencia, tConta *conta){
@@ -57,8 +57,8 @@ float GetSaldoMedioAgencia (tAgencia *agencia){
 
 void ImprimeDadosAgencia(tAgencia *agencia){
 
-    printf("	Nome: %s\n", agencia->nome);
+    printf("\n	Nome: %s\n", agencia->nome);
     printf("	Numero: %d\n", agencia->num);
     printf("	Numero de contas cadastradas: %d\n", VectorSize(agencia->contas));
-    printf("	Saldo médio: R$%.2f", GetSaldoMedioAgencia(agencia));
+    printf("	Saldo médio: R$%.2f\n", GetSaldoMedioAgencia(agencia));
 }

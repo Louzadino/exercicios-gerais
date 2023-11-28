@@ -134,7 +134,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/banco/result_linking.txt
  - Pasta conta:
  - Gerando o binário prog linkando com o(s) arquivo(s) conta/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/conta/result_linking.txt
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
@@ -146,23 +146,22 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/vector/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/result_linking.txt
- - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta agencia / Caso 1:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/agencia/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 7, frees: 0, errors: 1.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta agencia / Caso 2:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/agencia/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 7, frees: 0, errors: 1.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta agencia / Caso 3:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/agencia/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 7, frees: 0, errors: 1.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 16, frees: 16, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta banco / Caso 1:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/banco/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
@@ -176,26 +175,29 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 16, frees: 16, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta conta / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/conta/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta conta / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/conta/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta conta / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/conta/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 16, frees: 16, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 1:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/main/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0.
- - Resultado para o saida.txt: Incorreto!
+ - Valgrind: Ok! allocs: 16, frees: 16, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta vector / Caso 1:
  - Arquivo de output gerado: Resultados/GuilhermeLouzada/vector/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 25, frees: 25, errors: 0.
@@ -209,14 +211,17 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
  - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 25, frees: 25, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 36, frees: 36, errors: 0.
+ - Resultado para o saida.txt: Ok!
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente.
- - Resultado para o saida.txt: Incorreto!
+ - Arquivo de output gerado: Resultados/GuilhermeLouzada/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 20, frees: 20, errors: 0.
+ - Resultado para o saida.txt: Ok!
 
 #######################################
 RESULTADOS FINAIS
@@ -226,22 +231,22 @@ RESULTADOS FINAIS
 Nome 0: GuilhermeLouzada
  - Arquivos Corretos: 9 de 9 / Nota 10.00
  - Compilações Corretas: 30 de 30 / Nota 10.00
- - Linkagens Corretas: 4 de 6 / Nota 6.66
- - Resultados Corretos agencia: 0 de 3 / Nota 0.00
- - Valgrinds Corretos agencia: 0 de 3 / Nota 0.00
+ - Linkagens Corretas: 6 de 6 / Nota 10.00
+ - Resultados Corretos agencia: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos agencia: 3 de 3 / Nota 10.00
  - Resultados Corretos banco: 3 de 3 / Nota 10.00
  - Valgrinds Corretos banco: 3 de 3 / Nota 10.00
- - Resultados Corretos conta: 0 de 3 / Nota 0.00
- - Valgrinds Corretos conta: 0 de 3 / Nota 0.00
- - Resultados Corretos main: 0 de 3 / Nota 0.00
+ - Resultados Corretos conta: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos conta: 3 de 3 / Nota 10.00
+ - Resultados Corretos main: 3 de 3 / Nota 10.00
  - Valgrinds Corretos main: 3 de 3 / Nota 10.00
  - Resultados Corretos vector: 3 de 3 / Nota 10.00
  - Valgrinds Corretos vector: 3 de 3 / Nota 10.00
- - Resultados Corretos completo: 0 de 3 / Nota 0.00
- - Valgrinds Corretos completo: 0 de 3 / Nota 0.00
- - Soma das notas do GuilhermeLouzada: 76.660
+ - Resultados Corretos completo: 3 de 3 / Nota 10.00
+ - Valgrinds Corretos completo: 3 de 3 / Nota 10.00
+ - Soma das notas do GuilhermeLouzada: 150.000
  - Campos Considerados: 15
- - Média do GuilhermeLouzada: 5.11
+ - Média do GuilhermeLouzada: 10.00
 
 ----------------------------------------------------------------------------
 
