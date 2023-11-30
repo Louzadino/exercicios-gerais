@@ -1,0 +1,2 @@
+Test Case: Resultados/GuilhermeLouzada/tarefaimprime/Casos/4
+Valgrind result: allocs: 34 frees: 34 errors: 0 contexts: 0

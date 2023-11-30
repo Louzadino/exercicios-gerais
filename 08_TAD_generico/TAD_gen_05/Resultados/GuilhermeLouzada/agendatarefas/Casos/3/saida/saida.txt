@@ -1,0 +1,27 @@
+Digite o numero de tarefas: 
+Digite um tipo de tarefa suportado (I/S/M))
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.
+Sol brilha alto.

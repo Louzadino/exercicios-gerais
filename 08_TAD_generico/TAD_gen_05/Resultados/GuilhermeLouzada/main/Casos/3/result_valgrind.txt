@@ -1,0 +1,2 @@
+Test Case: Resultados/GuilhermeLouzada/main/Casos/3
+Valgrind result: allocs: 31 frees: 31 errors: 0 contexts: 0

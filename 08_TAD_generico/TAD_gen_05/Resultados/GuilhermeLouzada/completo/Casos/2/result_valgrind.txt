@@ -1,0 +1,2 @@
+Test Case: Resultados/GuilhermeLouzada/completo/Casos/2
+Valgrind result: allocs: 11 frees: 14 errors: 5 contexts: 2
