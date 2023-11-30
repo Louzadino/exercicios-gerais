@@ -35,6 +35,11 @@ tAgendaTarefas* CriaAgendaDeTarefas(int numElem){
 
     for (int i = 0; i < numElem; i++){
         agenda->tarefas[i] = (tTarefa*) calloc(1, sizeof(tTarefa));
+
+        if (agenda->tarefas[i] == NULL){
+            printf("ERRO: falha na alocacao da tarefa");
+            exit(0);
+        }
     }
 
     agenda->numElem = numElem;
@@ -65,16 +70,23 @@ void CadastraTarefaNaAgenda(tAgendaTarefas* tar, int prioridade, void *tarefa, v
             tar->tarefas[i]->prioridade = prioridade;
             tar->tarefas[i]->tarefa = tarefa;
             tar->tarefas[i]->tarefaOcupada = 1;
+            return;
         }
     }
 }
 
 void ExecutarTarefasDaAgenda(tAgendaTarefas* tar){
 
+    // Ordenacao de acordo com a prioridade
+    for (int i = 0; i < tar->numElem; i++){
+        for (int j = i + 1; i < tar->numElem; j++){
+            
+        }
+    }
+
     // Execucao das tarefas
     for (int i = 0; i < tar->numElem; i++){
-        tTarefa* tarefaAtual = tar->tarefas[i];
-        if (tarefaAtual->executa != NULL)
-            tarefaAtual->executa(tarefaAtual->tarefa);
+        if (tar->tarefas[i]->executa != NULL)
+            tar->tarefas[i]->executa(tar->tarefas[i]->tarefa);
     }
 }
