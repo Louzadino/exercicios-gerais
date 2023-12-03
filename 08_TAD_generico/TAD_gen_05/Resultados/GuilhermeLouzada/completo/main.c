@@ -11,6 +11,7 @@ int main(){
     int prioridade;
     char prefixo;
 
+    printf("Digite o numero de tarefas: ");
     scanf("%d", &numElem);
     tAgendaTarefas* agenda = CriaAgendaDeTarefas(numElem);
 
@@ -21,7 +22,7 @@ int main(){
         scanf("%d %c", &prioridade, &prefixo);
 
         if (prefixo == 'I'){
-            scanf("%[^\n]\n", msg);
+            scanf(" %[^\n]\n", msg);
             tImpr* tarefaImprime = CriaTarefaImprimir(msg);
             CadastraTarefaNaAgenda(agenda, prioridade, tarefaImprime, ExecutaTarefaImprimir, DestroiTarefaImprimir);
         } else if (prefixo == 'S'){

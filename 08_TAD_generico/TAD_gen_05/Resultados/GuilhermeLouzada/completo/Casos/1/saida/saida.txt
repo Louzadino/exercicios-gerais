@@ -1,6 +1,1 @@
-
- Olá Mundo!
- Olá Mundo!
- Olá Mundo!
- Olá Mundo!
- Olá Mundo!
+timeout: the monitored command dumped core

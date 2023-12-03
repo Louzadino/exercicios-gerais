@@ -1,0 +1,8 @@
+Resultados/GuilhermeLouzada/completo/vector.c: In function ‘VectorGet’:
+Resultados/GuilhermeLouzada/completo/vector.c:49:1: warning: control reaches end of non-void function [-Wreturn-type]
+   49 | }
+      | ^
+Resultados/GuilhermeLouzada/completo/vector.c: In function ‘VectorSize’:
+Resultados/GuilhermeLouzada/completo/vector.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^

@@ -1,5 +1,5 @@
-
- Começando os trabalhos
+Digite o numero de tarefas: 
+Começando os trabalhos
 O resultado da multiplicacao de 5.00 com 6.00 eh: 30.00
 O resultado da multiplicacao de 25.00 com 11.00 eh: 275.00
 O resultado da multiplicacao de 3.00 com 14.00 eh: 42.00
@@ -48,4 +48,4 @@ O resultado da soma de 4.91 com 8.06 eh: 12.97
 O resultado da soma de 6.32 com 3.98 eh: 10.30
 O resultado da multiplicacao de 5.62 com 0.84 eh: 4.72
 O resultado da multiplicacao de 8.63 com 1.29 eh: 11.13
- Terminando os trabalhos
+Terminando os trabalhos

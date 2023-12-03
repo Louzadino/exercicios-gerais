@@ -1,6 +1,1 @@
-Digite o numero de tarefas: 
-Olá Mundo!
-Olá Mundo!
-Olá Mundo!
-Olá Mundo!
-Olá Mundo!
+timeout: the monitored command dumped core

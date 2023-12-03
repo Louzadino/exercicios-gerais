@@ -1,13 +1,13 @@
-
- Música suave embala.
- Café quente e aromático.
- Beijo apaixonado e doce.
- Noite silenciosa e serena.
- Chuva fina cai.
- Fogo crepita suavemente.
- Céu estrelado à noite.
- Neve branca cai.
- Vento suave sopra.
- Mar azul calmo.
- Lua cheia brilha.
- Sol brilha alto.
+Digite o numero de tarefas: 
+Música suave embala.
+Café quente e aromático.
+Beijo apaixonado e doce.
+Noite silenciosa e serena.
+Chuva fina cai.
+Fogo crepita suavemente.
+Céu estrelado à noite.
+Neve branca cai.
+Vento suave sopra.
+Mar azul calmo.
+Lua cheia brilha.
+Sol brilha alto.

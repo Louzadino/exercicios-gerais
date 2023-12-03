@@ -1,2 +1,2 @@
 Test Case: Resultados/GuilhermeLouzada/agendatarefas/Casos/5
-Valgrind result: allocs: 106 frees: 104 errors: 52 contexts: 4
+Valgrind result: allocs: 106 frees: 0 errors: 2 contexts: 2

@@ -11,6 +11,7 @@ int main(){
     int prioridade;
     char prefixo;
 
+    printf("Digite o numero de tarefas: ");
     scanf("%d", &numElem);
     tAgendaTarefas* agenda = CriaAgendaDeTarefas(numElem);
 

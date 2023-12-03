@@ -1,6 +1,1 @@
-
- Tchau Mundo!
- Tchau Mundo!
- Tchau Mundo!
- Tchau Mundo!
- Tchau Mundo!
+timeout: the monitored command dumped core
